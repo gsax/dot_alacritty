@@ -166,8 +166,8 @@ draw_bold_text_with_bright_colors: true
 colors:
   # Default colors
   primary:
-    background: '0x000000'
-    foreground: '0xa6a6a6'
+    background: '0x181a26'
+    foreground: '0xf8f8f2'
 
     # Bright and dim foreground colors
     #
@@ -183,7 +183,7 @@ colors:
   # the cursor color will be the inverse of the cell color.
   #cursor:
     text: '0x000000'
-    cursor: '0x00ff00'
+    cursor: '0x50fa7b'
   
   # Selection colors
   #
@@ -197,38 +197,38 @@ colors:
   # Normal colors
   normal:
     black:   '0x000000'
-    red:     '0xcd0000'
-    green:   '0x00cd00'
-    yellow:  '0xcdcd00'
-    blue:    '0x7777ff'
-    magenta: '0xcd00cd'
-    cyan:    '0x00cdcd'
-    white:   '0xa6a6a6'
+    red:     '0xff5555'
+    green:   '0x50fa7b'
+    yellow:  '0xf1fa8c'
+    blue:    '0xbd93f9'
+    magenta: '0xff79c6'
+    cyan:    '0x8be9fd'
+    white:   '0xbfbfbf'
 
   # Bright colors
   bright:
-    black:   '0x7f7f7f'
-    red:     '0xff0000'
-    green:   '0x00ff00'
-    yellow:  '0xffff00'
-    blue:    '0x9999ff'
-    magenta: '0xff00ff'
-    cyan:    '0x00ffff'
-    white:   '0xffffff'
+    black:   '0x4d4d4d'
+    red:     '0xff6e67'
+    green:   '0x5af78e'
+    yellow:  '0xf4f99d'
+    blue:    '0xcaa9fa'
+    magenta: '0xff92d0'
+    cyan:    '0x9aedfe'
+    white:   '0xe6e6e6'
 
   # Dim colors
   #
   # If the dim colors are not set, they will be calculated automatically based
   # on the `normal` colors.
-  dim:
-    black:   '0x333333'
-    red:     '0xaa0000'
-    green:   '0x00aa00'
-    yellow:  '0xaaaa00'
-    blue:    '0x5555ff'
-    magenta: '0xaa00aa'
-    cyan:    '0x00aaaa'
-    white:   '0x888888'
+  #dim:
+  #  black:   '0x333333'
+  #  red:     '0xaa0000'
+  #  green:   '0x00aa00'
+  #  yellow:  '0xaaaa00'
+  #  blue:    '0x5555ff'
+  #  magenta: '0xaa00aa'
+  #  cyan:    '0x00aaaa'
+  #  white:   '0x888888'
 
   # Indexed Colors
   #
@@ -270,7 +270,7 @@ visual_bell:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.9
+background_opacity: 0.8
 
 # Mouse bindings
 #
